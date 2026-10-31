@@ -33,7 +33,19 @@ rest_inspec =
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### Inspection scores by borough
+
+```{r}
+rest_inspec |>
+  mutate(borough = fct_reorder(borough, score)) |>
+  plot_ly(
+    x = ~borough, y = ~score, color = ~borough, type = "box", colors = "viridis"
+  ) |>
+  layout(
+    xaxis = list(title = "Borough"),
+    yaxis = list(title = "Inspection score (lower is better)")
+  )
+```
 
 Column {data-width=350}
 -----------------------------------------------------------------------
