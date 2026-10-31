@@ -30,7 +30,40 @@ rest_inspec =
 ```
 
 
-Column {data-width=650}
+Column {data-width=600}
+-----------------------------------------------------------------------
+
+### Restaurant locations by most recent 2019 grade
+
+```{r}
+rest_inspec |>
+  filter(
+    inspection_date >= "2019-01-01",
+    !str_detect(inspection_type, "Reopening"),
+    !is.na(latitude), !is.na(longitude),
+    latitude != 0, longitude != 0
+  ) |>
+  arrange(desc(inspection_date)) |>
+  distinct(camis, .keep_all = TRUE) |>
+  mutate(
+    text_label = str_c(
+      str_to_title(dba), "\nBorough: ", borough,
+      "\nScore: ", score, "\nGrade: ", grade
+    )
+  ) |>
+  plot_ly(
+    x = ~longitude, y = ~latitude, color = ~grade, text = ~text_label,
+    type = "scatter", mode = "markers", alpha = 0.5,
+    colors = c("#1a9850", "#fdae61", "#d73027")
+  ) |>
+  layout(
+    xaxis = list(title = "Longitude"),
+    yaxis = list(title = "Latitude"),
+    legend = list(title = list(text = "Grade"))
+  )
+```
+
+Column {data-width=400}
 -----------------------------------------------------------------------
 
 ### Inspection scores by borough
@@ -47,9 +80,6 @@ rest_inspec |>
   )
 ```
 
-Column {data-width=350}
------------------------------------------------------------------------
-
 ### Cuisines with the worst average scores
 
 ```{r}
@@ -57,27 +87,24 @@ rest_inspec |>
   group_by(cuisine_description) |>
   summarize(
     mean_score = mean(score),
-    n_inspections = n(),
+    n_inspections = n()
   ) |>
   ungroup() |>
   filter(n_inspections >= 200) |>
-  filter(min_rank(desc(mean_score)) <= 10) |>   
-  mutate(cuisine_description = case_when(str_detect(cuisine_description, "Latin") ~ "Latin", TRUE ~ cuisine_description)) |>
+  filter(min_rank(desc(mean_score)) <= 10) |>
+  mutate(cuisine_description = case_when(
+    str_detect(cuisine_description, "Latin") ~ "Latin",
+    TRUE ~ cuisine_description
+  )) |>
   mutate(cuisine_description = fct_reorder(cuisine_description, mean_score)) |>
   plot_ly(
     x = ~mean_score, y = ~cuisine_description, color = ~cuisine_description,
     type = "bar", colors = "viridis"
   ) |>
   layout(
-    xaxis = list(title = "Mean inspection score (higher = more violations)"),
+    xaxis = list(title = "Mean score (higher = worse)"),
     yaxis = list(title = ""),
     showlegend = FALSE
   )
-```
-
-### Chart C
-
-```{r}
-
 ```
 
