@@ -50,10 +50,29 @@ rest_inspec |>
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
+### Cuisines with the worst average scores
 
 ```{r}
-
+rest_inspec |>
+  group_by(cuisine_description) |>
+  summarize(
+    mean_score = mean(score),
+    n_inspections = n(),
+  ) |>
+  ungroup() |>
+  filter(n_inspections >= 200) |>
+  filter(min_rank(desc(mean_score)) <= 10) |>   
+  mutate(cuisine_description = case_when(str_detect(cuisine_description, "Latin") ~ "Latin", TRUE ~ cuisine_description)) |>
+  mutate(cuisine_description = fct_reorder(cuisine_description, mean_score)) |>
+  plot_ly(
+    x = ~mean_score, y = ~cuisine_description, color = ~cuisine_description,
+    type = "bar", colors = "viridis"
+  ) |>
+  layout(
+    xaxis = list(title = "Mean inspection score (higher = more violations)"),
+    yaxis = list(title = ""),
+    showlegend = FALSE
+  )
 ```
 
 ### Chart C
