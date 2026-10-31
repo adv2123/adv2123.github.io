@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Resume</title>
+
+<script src="site_libs/header-attrs-2.32/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Andrea Vasquez</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="resume.html">Resume</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="mailto:adv2123@cumc.columbia.edu">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/adv2123">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/andrea-vasquez-guillen-0a99b6247/">
+    <span class="fa fa-linkedin fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Resume</h1>
+
+</div>
+
+
+<p><a href="mailto:adv2123@cumc.columbia.edu">Email</a> | <a
+href="https://www.linkedin.com/in/andrea-vasquez-guillen-0a99b6247/">LinkedIn</a>
+| <a href="https://github.com/adv2123">GitHub</a></p>
+<div id="education" class="section level2">
+<h2>Education</h2>
+<p><strong>Columbia University, Mailman School of Public Health</strong>
+— New York, NY <em>Master of Public Health in Epidemiology,
+Concentration in Advanced Epidemiology</em> | September 2025 – Present
+GPA: 4.06</p>
+<ul>
+<li>2+2+2 NextGen Public Health Scholar (2022 – Present)</li>
+</ul>
+<p><strong>Columbia University, School of General Studies</strong> — New
+York, NY <em>Bachelor of Arts in Neuroscience and Behavior</em> | August
+2023 – October 2025 GPA: 4.005</p>
+<ul>
+<li>Magna Cum Laude (2025)</li>
+<li>Phi Beta Kappa (Inductee 2025)</li>
+<li>General Studies Honor Society (Inductee 2025)</li>
+<li>Dean’s List (Fall 2023 – Summer 2025)</li>
+</ul>
+<p><strong>Hostos Community College – CUNY</strong> — Bronx, NY
+<em>Associate of Arts in Liberal Arts &amp; Science (Community
+Health)</em> | August 2021 – May 2023 GPA: 4.0</p>
+<ul>
+<li>Scholastic Achievement Award (May 2023)</li>
+<li>Certificate of Excellence, Hostos Volunteer Corps (May 2023)</li>
+<li>Phi Theta Kappa Honor Society (Inductee)</li>
+</ul>
+<p><strong>Universidad de Los Andes</strong> — Mérida, Venezuela
+<em>Doctor of Medicine Candidate</em> | 2015 – 2020 GPA: 4.0</p>
+<ul>
+<li>2.5 academic years completed, due to repeated institutional closures
+during civil unrest in Venezuela</li>
+<li>Maria Luisa Rivas Dávila Academic Award (Top 5 GPA)</li>
+</ul>
+</div>
+<div id="research-experience" class="section level2">
+<h2>Research Experience</h2>
+<p><strong>Columbia University Mailman School of Public Health</strong>
+— New York, NY <em>Research Assistant</em> | June 2026 – Present</p>
+<ul>
+<li>Applied data analytics to investigate a potential link between
+childhood retinoblastoma and parental occupational exposure to hazardous
+chemicals such as heavy metals, herbicides, and hydrocarbons</li>
+<li>Recoded and consolidated occupational exposure data according to the
+International Standard Classification of Occupations</li>
+<li>Performed inferential statistical modeling to explore the
+association between occupational exposure to toxins of interest and
+childhood retinoblastoma</li>
+</ul>
+<p><strong>NYU Langone Health, Giannarelli Lab / American Heart
+Association HSI Program</strong> — New York, NY <em>Student Research
+Intern</em> | September 2022 – October 2023</p>
+<ul>
+<li>Developed an imaging mass cytometry (IMC) panel for CyTOF (Cytometry
+by Time-of-Flight) to improve cellular marker analysis</li>
+<li>Designed and optimized antibody panels (over 40 antibodies) to
+support high-dimensional data analysis</li>
+<li>Assisted with data collection, imaging data review, and
+interpretation of IMC staining outcomes</li>
+<li>Presented findings in a scientific poster and contributed to a
+publication in <em>Nature Cardiovascular Research</em></li>
+</ul>
+<p><strong>Medical Student Scientific Association (ACUEM)</strong> —
+Venezuela <em>Student Researcher</em> | March 2019 – November 2020</p>
+<ul>
+<li>Developed a systematic review on cardiovascular complications
+associated with SARS-CoV-2 infection</li>
+<li>Trained in research design, scientific methods, and protocol
+evaluation</li>
+</ul>
+<p><strong>Laboratory of Molecular Biology, Dept. of Microbiology &amp;
+Clinical Parasitology, Universidad de Los Andes</strong> — Venezuela
+<em>Student Researcher</em> | September 2017 – 2022</p>
+<ul>
+<li>Performed agarose gel electrophoresis and molecular weight ladder
+dilutions</li>
+<li>Co-authored two review papers in scientific journals</li>
+<li>Analyzed data for ongoing research projects</li>
+</ul>
+</div>
+<div id="work-experience" class="section level2">
+<h2>Work Experience</h2>
+<p><strong>NYC Department of Health and Mental Hygiene, Zoonotic and
+Vector-borne Disease Unit</strong> — New York, NY <em>Data Analyst</em>
+| June 2026 – Present</p>
+<ul>
+<li>Engineered automated SAS workflows to streamline epidemiological
+surveillance and track spatial-temporal trends of Alpha-Gal Syndrome
+(AGS)</li>
+<li>Generated, managed, and analyzed large datasets to produce
+statistical summaries of tick-borne disease in New York City</li>
+<li>Created summary visualizations (graphs, charts, tables, maps) to
+communicate disease incidence and risk</li>
+<li>Conducted case investigation interviews with patients who tested
+positive for a tick-borne disease and entered clinical and exposure
+information into the NYC Electronic Disease Surveillance System</li>
+<li>Created an AGS “pocket guide” for distribution to healthcare
+providers, and an AGS webpage for the NYC Department of Health
+website</li>
+<li>Assisted with “tick dragging” fieldwork in New York City parks to
+supplement environmental surveillance</li>
+</ul>
+<p><strong>Department of Epidemiology, Columbia University Mailman
+School of Public Health</strong> — New York, NY <em>Teaching Assistant,
+Research Methods (ReMA)</em> | September 2026 – Present</p>
+<ul>
+<li>Lead a weekly lab section of 16 students</li>
+<li>Hold weekly office hours, breaking down complex statistics problems
+and concepts</li>
+<li>Assist with exam proctoring</li>
+<li>Grade assignments and provide feedback to students</li>
+</ul>
+<p><strong>Behavioral Neuroscience, Columbia University</strong> — New
+York, NY <em>Teaching Assistant</em> | January – May 2025</p>
+<ul>
+<li>Held weekly office hours, breaking down complex neurological
+processes such as action potentials and synaptic transmission into
+digestible concepts</li>
+<li>Organized and led midterm review sessions for a class of over 100
+students</li>
+<li>Managed grading and proctoring of examinations, and delivered
+timely, constructive feedback</li>
+</ul>
+<p><strong>Universidad de Los Andes</strong> — Mérida, Venezuela
+<em>Tutor</em> | April 2019 – March 2020</p>
+<ul>
+<li>Tutored more than 70 students in Histology and Physiology</li>
+<li>Created quizzes and guided study strategies</li>
+</ul>
+<p><strong>Bronx Community Health Network – Montefiore</strong> — Bronx,
+NY <em>Children Reading Program Intern</em> | September 2022 – November
+2022</p>
+<ul>
+<li>Facilitated literacy sessions for children in pediatric
+facilities</li>
+<li>Surveyed parents and reported on program engagement</li>
+</ul>
+</div>
+<div id="leadership" class="section level2">
+<h2>Leadership</h2>
+<p><strong>Student Cohort Delegate, Universidad de Los Andes</strong> —
+Mérida, Venezuela | 2018 – 2020</p>
+<ul>
+<li>Elected Medical Student Delegate for consecutive cohorts, serving as
+the primary liaison between an 80-student cohort and university
+administration</li>
+<li>Advocated for fair examination schedules after systemic turmoil
+forced class cancellations, ensuring students’ academic progression</li>
+<li>Designed and managed a centralized resource-sharing system so all
+peers had access to critical study materials</li>
+<li>Led advocacy and fundraising to secure educational materials and
+equipment despite systemic resource constraints</li>
+</ul>
+</div>
+<div id="volunteer-experience" class="section level2">
+<h2>Volunteer Experience</h2>
+<ul>
+<li><strong>Englewood Hospital</strong>, Englewood, NJ (September
+2026-present): Assist with patient, medication, and specimen
+transportation.<br />
+</li>
+<li><strong>FUNDAVE</strong>, New York, NY (July 2026): Classified,
+packaged, and loaded material aid for victims of the double earthquake
+in Venezuela</li>
+<li><strong>American Heart Association</strong>, New York, NY (April
+2023): CPR/AED Trainer, taught hands-only CPR at community outreach
+events</li>
+<li><strong>Hostos Community College Student Leadership
+Academy</strong>, Bronx, NY (July 2022): Supported the 32nd Anniversary
+Americans with Disabilities Act event with the CUNY Coalition for
+Students with Disabilities</li>
+<li><strong>Universidad de Los Andes</strong>, Mérida, Venezuela (2019):
+Provided medical support to homeless populations and volunteered in the
+pediatric oncology department</li>
+</ul>
+</div>
+<div id="publications-and-public-commentary" class="section level2">
+<h2>Publications and Public Commentary</h2>
+<ul>
+<li>Eberhardt, N., Noval, M.G., Kaur, R., <strong>Vasquez Guillen,
+A.</strong>, <em>et al.</em> (2023). SARS-CoV-2 infection triggers
+pro-atherogenic inflammatory responses in human coronary vessels.
+<em>Nature Cardiovascular Research</em>, 2, 899–916. <a
+href="https://doi.org/10.1038/s44161-023-00336-5">doi:10.1038/s44161-023-00336-5</a></li>
+<li>Vásquez-Guillén, M., <strong>Vasquez-Guillen, A.</strong>,
+Inglessis-Aguilar, J. A., Contreras, M., &amp; Carrero, Y. (2023).
+Cardiovascular complications associated with SARS-CoV-2 infection:
+Systematic review. <em>Kasmera</em>, 51. <a
+href="https://doi.org/10.56903/kasmera.5137658">doi:10.56903/kasmera.5137658</a></li>
+<li>Leiva Suero, L. E., Vásquez-Guillén, M., <strong>Vasquez-Guillen,
+A.</strong>, Contreras, M., &amp; Carrero, Y. (2022). Covid-19
+complications associated with obesity: Review. <em>Enfermería
+Investiga</em>, 7(2), 80–86. <a
+href="https://doi.org/10.31243/ei.uta.v7i2.1619.2022">doi:10.31243/ei.uta.v7i2.1619.2022</a></li>
+<li>Contreras, M., <strong>Vasquez Guillen, A.</strong>, Rincón, M. A.,
+Moreira, R., &amp; Callejas, D. (2021). Genetic aspects of dengue virus.
+<em>QhaliKay. Revista de Ciencias de La Salud</em>, 5(2), 79. <a
+href="https://doi.org/10.33936/qkrcs.v5i2.3496">doi:10.33936/qkrcs.v5i2.3496</a></li>
+<li><strong>Vasquez Guillen, A.</strong> (2024, July 1). What
+Venezuela’s last glacier meant to my country. <em>The Washington
+Post</em>.</li>
+</ul>
+</div>
+<div id="poster-presentations" class="section level2">
+<h2>Poster Presentations</h2>
+<ul>
+<li><strong>Vasquez-Guillen, A.</strong>, Eberhardt, N., &amp;
+Giannarelli, C. (2023, April). <em>Athero-in study: Establishing a high
+dimensional immune panel for imaging mass cytometry to study
+atherosclerosis.</em> American Heart Association Scientific
+Symposium.</li>
+</ul>
+</div>
+<div id="skills" class="section level2">
+<h2>Skills</h2>
+<ul>
+<li><strong>Programming:</strong> R (tidyverse, R Markdown, plotly),
+SAS</li>
+<li><strong>Tools:</strong> Git/GitHub, NYC Electronic Disease
+Surveillance System</li>
+<li><strong>Methods:</strong> Surveillance data analysis, case
+investigation, statistical modeling, data visualization</li>
+<li><strong>Languages:</strong> Spanish, English</li>
+</ul>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
