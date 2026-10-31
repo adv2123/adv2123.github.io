@@ -13,6 +13,22 @@ library(plotly)
 library(p8105.datasets)
 ```
 
+```{r data, include = FALSE}
+data("rest_inspec")
+
+rest_inspec = 
+  rest_inspec |>
+  rename(borough = boro) |>
+  filter(
+    grade %in% c("A", "B", "C"),
+    borough != "Missing",
+    !is.na(score)
+  ) |>
+  distinct(camis, inspection_date, .keep_all = TRUE) |>
+  mutate(borough = str_to_title(borough))
+```
+
+
 Column {data-width=650}
 -----------------------------------------------------------------------
 
