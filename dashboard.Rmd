@@ -21,8 +21,9 @@ rest_inspec =
   rename(borough = boro) |>
   filter(
     grade %in% c("A", "B", "C"),
-    borough != "Missing",
-    !is.na(score)
+    !borough %in% c("Missing", "0"),
+    !is.na(score),
+    score >= 0
   ) |>
   distinct(camis, inspection_date, .keep_all = TRUE) |>
   mutate(borough = str_to_title(borough))
@@ -33,10 +34,6 @@ Column {data-width=650}
 -----------------------------------------------------------------------
 
 ### Chart A
-
-```{r}
-
-```
 
 Column {data-width=350}
 -----------------------------------------------------------------------
