@@ -1,0 +1,142 @@
+---
+title: "Resume"
+---
+
+[Email](mailto:adv2123@cumc.columbia.edu) | 
+[LinkedIn]( https://www.linkedin.com/in/andrea-vasquez-guillen-0a99b6247/) | [GitHub](https://github.com/adv2123)
+
+## Education
+
+**Columbia University, Mailman School of Public Health** — New York, NY
+*Master of Public Health in Epidemiology, Concentration in Advanced Epidemiology* | September 2025 – Present
+GPA: 4.06
+
+- 2+2+2 NextGen Public Health Scholar (2022 – Present)
+
+**Columbia University, School of General Studies** — New York, NY
+*Bachelor of Arts in Neuroscience and Behavior* | August 2023 – October 2025
+GPA: 4.005
+
+- Magna Cum Laude (2025)
+- Phi Beta Kappa (Inductee 2025)
+- General Studies Honor Society (Inductee 2025)
+- Dean's List (Fall 2023 – Summer 2025)
+
+**Hostos Community College – CUNY** — Bronx, NY
+*Associate of Arts in Liberal Arts & Science (Community Health)* | August 2021 – May 2023
+GPA: 4.0
+
+- Scholastic Achievement Award (May 2023)
+- Certificate of Excellence, Hostos Volunteer Corps (May 2023)
+- Phi Theta Kappa Honor Society (Inductee)
+
+**Universidad de Los Andes** — Mérida, Venezuela
+*Doctor of Medicine Candidate* | 2015 – 2020
+GPA: 4.0
+
+- 2.5 academic years completed, due to repeated institutional closures during civil unrest in Venezuela
+- Maria Luisa Rivas Dávila Academic Award (Top 5 GPA)
+
+## Research Experience
+
+**Columbia University Mailman School of Public Health** — New York, NY
+*Research Assistant* | June 2026 – Present
+
+- Applied data analytics to investigate a potential link between childhood retinoblastoma and parental occupational exposure to hazardous chemicals such as heavy metals, herbicides, and hydrocarbons
+- Recoded and consolidated occupational exposure data according to the International Standard Classification of Occupations
+- Performed inferential statistical modeling to explore the association between occupational exposure to toxins of interest and childhood retinoblastoma
+
+**NYU Langone Health, Giannarelli Lab / American Heart Association HSI Program** — New York, NY
+*Student Research Intern* | September 2022 – October 2023
+
+- Developed an imaging mass cytometry (IMC) panel for CyTOF (Cytometry by Time-of-Flight) to improve cellular marker analysis
+- Designed and optimized antibody panels (over 40 antibodies) to support high-dimensional data analysis
+- Assisted with data collection, imaging data review, and interpretation of IMC staining outcomes
+- Presented findings in a scientific poster and contributed to a publication in *Nature Cardiovascular Research*
+
+**Medical Student Scientific Association (ACUEM)** — Venezuela
+*Student Researcher* | March 2019 – November 2020
+
+- Developed a systematic review on cardiovascular complications associated with SARS-CoV-2 infection
+- Trained in research design, scientific methods, and protocol evaluation
+
+**Laboratory of Molecular Biology, Dept. of Microbiology & Clinical Parasitology, Universidad de Los Andes** — Venezuela
+*Student Researcher* | September 2017 – 2022
+
+- Performed agarose gel electrophoresis and molecular weight ladder dilutions
+- Co-authored two review papers in scientific journals
+- Analyzed data for ongoing research projects
+
+## Work Experience
+
+**NYC Department of Health and Mental Hygiene, Zoonotic and Vector-borne Disease Unit** — New York, NY
+*Data Analyst* | June 2026 – Present
+
+- Engineered automated SAS workflows to streamline epidemiological surveillance and track spatial-temporal trends of Alpha-Gal Syndrome (AGS)
+- Generated, managed, and analyzed large datasets to produce statistical summaries of tick-borne disease in New York City
+- Created summary visualizations (graphs, charts, tables, maps) to communicate disease incidence and risk
+- Conducted case investigation interviews with patients who tested positive for a tick-borne disease and entered clinical and exposure information into the NYC Electronic Disease Surveillance System
+- Created an AGS "pocket guide" for distribution to healthcare providers, and an AGS webpage for the NYC Department of Health website
+- Assisted with "tick dragging" fieldwork in New York City parks to supplement environmental surveillance
+
+**Department of Epidemiology, Columbia University Mailman School of Public Health** — New York, NY
+*Teaching Assistant, Research Methods (ReMA)* | September 2026 – Present
+
+- Lead a weekly lab section for a group of 16 students.
+- Held weekly office hours, breaking down complex statistics problems and concepts. 
+- Assist with exam proctoring.
+- Grade assignments and provide feedback to students
+
+**Behavioral Neuroscience, Columbia University** — New York, NY
+*Teaching Assistant* | January – May 2025
+
+- Held weekly office hours, breaking down complex neurological processes such as action potentials and synaptic transmission into digestible concepts
+- Organized and led midterm review sessions for a class of over 100 students
+- Managed grading and proctoring of examinations, and delivered timely, constructive feedback
+
+**Universidad de Los Andes** — Mérida, Venezuela
+*Tutor* | April 2019 – March 2020
+
+- Tutored more than 70 students in Histology and Physiology
+- Created quizzes and guided study strategies
+
+**Bronx Community Health Network – Montefiore** — Bronx, NY
+*Children Reading Program Intern* | September 2022 – November 2022
+
+- Facilitated literacy sessions for children in pediatric facilities
+- Surveyed parents and reported on program engagement
+
+## Leadership
+
+**Student Cohort Delegate, Universidad de Los Andes** — Mérida, Venezuela | 2018 – 2020
+
+- Elected Medical Student Delegate for consecutive cohorts, serving as the primary liaison between an 80-student cohort and university administration
+- Advocated for fair examination schedules after systemic turmoil forced class cancellations, ensuring students' academic progression
+- Designed and managed a centralized resource-sharing system so all peers had access to critical study materials
+- Led advocacy and fundraising to secure educational materials and equipment despite systemic resource constraints
+
+## Volunteer Experience
+- **Englewood Hospital**, New Jersey, NJ (September 2026-present): Assit with patient, medicine, and specimen transportation.  
+- **FUNDAVE**, New York, NY (July 2026): Classified, packaged, and loaded material aid for victims of the double earthquake in Venezuela
+- **American Heart Association**, New York, NY (April 2023): CPR/AED Trainer, taught hands-only CPR at community outreach events
+- **Hostos Community College Student Leadership Academy**, Bronx, NY (July 2022): Supported the 32nd Anniversary Americans with Disabilities Act event with the CUNY Coalition for Students with Disabilities
+- **Universidad de Los Andes**, Mérida, Venezuela (2019): Provided medical support to homeless populations and volunteered in the pediatric oncology department
+
+## Publications and Public Commentary
+
+- Eberhardt, N., Noval, M.G., Kaur, R., **Vasquez Guillen, A.**, *et al.* (2023). SARS-CoV-2 infection triggers pro-atherogenic inflammatory responses in human coronary vessels. *Nature Cardiovascular Research*, 2, 899–916. [doi:10.1038/s44161-023-00336-5](https://doi.org/10.1038/s44161-023-00336-5)
+- Vásquez-Guillén, M., **Vasquez-Guillen, A.**, Inglessis-Aguilar, J. A., Contreras, M., & Carrero, Y. (2023). Cardiovascular complications associated with SARS-CoV-2 infection: Systematic review. *Kasmera*, 51. [doi:10.56903/kasmera.5137658](https://doi.org/10.56903/kasmera.5137658)
+- Leiva Suero, L. E., Vásquez-Guillén, M., **Vasquez-Guillen, A.**, Contreras, M., & Carrero, Y. (2022). Covid-19 complications associated with obesity: Review. *Enfermería Investiga*, 7(2), 80–86. [doi:10.31243/ei.uta.v7i2.1619.2022](https://doi.org/10.31243/ei.uta.v7i2.1619.2022)
+- Contreras, M., **Vasquez Guillen, A.**, Rincón, M. A., Moreira, R., & Callejas, D. (2021). Genetic aspects of dengue virus. *QhaliKay. Revista de Ciencias de La Salud*, 5(2), 79. [doi:10.33936/qkrcs.v5i2.3496](https://doi.org/10.33936/qkrcs.v5i2.3496)
+- **Vasquez Guillen, A.** (2024, July 1). What Venezuela's last glacier meant to my country. *The Washington Post*.
+
+## Poster Presentations
+
+- **Vasquez-Guillen, A.**, Eberhardt, N., & Giannarelli, C. (2023, April). *Athero-in study: Establishing a high dimensional immune panel for imaging mass cytometry to study atherosclerosis.* American Heart Association Scientific Symposium.
+
+## Skills
+
+- **Programming:** R (tidyverse, R Markdown, plotly), SAS
+- **Tools:** Git/GitHub, NYC Electronic Disease Surveillance System
+- **Methods:** Surveillance data analysis, case investigation, statistical modeling, data visualization
+- **Languages:** Spanish, English
