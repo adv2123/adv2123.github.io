@@ -6,6 +6,6 @@ title: "Hi, I'm Andrea Vasquez"
 
 I'm a second-year MPH student in the Department of Epidemiology at Columbia University's Mailman School of Public Health.
 
-My work focuses on infectious disease surveillance and cancer epidemiology. I've been working with tick-borne disease surveillance data at the NYC Department of Health and Mental Hygiene, and my thesis looks at second primary cancers in early-onset cancer cases using SEER data.
+My work focuses on infectious disease surveillance and cancer epidemiology. I'm currently a data analyst at the NYC Department of Health and Mental Hygiene, where I work with tick-borne disease surveillance data, and a teaching assistant in the Department of Epidemiology at Mailman. My thesis looks at second primary cancers in early-onset cancer cases using SEER data.
 
 Take a look at my [resume](resume.html), or find me on [GitHub](https://github.com/adv2123).
